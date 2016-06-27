@@ -22,7 +22,7 @@ class structured_lists {
         return $data;
     }
 
-    public function usage() {
+    public static function usage() {
         ob_start();
     ?>
         Use {exp:structured_lists} ... {/exp:structured_lists} around your editor output to replace list shortcodes with list containers.
